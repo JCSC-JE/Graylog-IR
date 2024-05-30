@@ -1,0 +1,23 @@
+# EVTX ELK Winlogbeat Configuration File | v1.0
+# Zachary Burnham 2019 | @zmbf0r3ns1cs modified by Cyberkryption
+
+# Winlogbeat Shipper Settings
+winlogbeat.event_logs:
+ - name: ${EVTX_FILE}
+   no_more_events: stop
+winlogbeat.shutdown_timeout: 60s
+winlogbeat.registry_file: evtx-registry.yml
+
+# Add/Drop fields for searching within Graylog
+processors:
+  - add_fields:
+        target: ''
+        fields:
+            client: ${CLIENT}
+            case_number: ${CASE}
+            log_type: ${LOGTYPE}
+            location: ${LOCATION}
+        
+output.logstash:
+  enabled: true
+  hosts: ["192.168.56.103:5044"]

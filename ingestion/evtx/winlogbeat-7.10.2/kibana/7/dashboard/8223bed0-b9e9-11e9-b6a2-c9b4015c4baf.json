@@ -1,0 +1,943 @@
+{
+    "objects": [
+        {
+            "attributes": {
+                "description": "Uses Simple Metric Visualizations",
+                "hits": 0,
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                },
+                "optionsJSON": "{\"useMargins\": true, \"hidePanelTitles\": false}",
+                "panelsJSON": "[{\"panelIndex\": \"1\", \"panelRefName\": \"panel_0\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"\", \"gridData\": {\"x\": 0, \"h\": 19, \"y\": 0, \"w\": 17, \"i\": \"1\"}}, {\"panelIndex\": \"2\", \"panelRefName\": \"panel_1\", \"version\": \"7.3.0\", \"embeddableConfig\": {\"vis\": {\"legendOpen\": false}}, \"title\": \"User Management Actions [Winlogbeat Security]\", \"gridData\": {\"x\": 17, \"h\": 19, \"y\": 0, \"w\": 18, \"i\": \"2\"}}, {\"panelIndex\": \"3\", \"panelRefName\": \"panel_2\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"Created Users [Winlogbeat Security]\", \"gridData\": {\"x\": 0, \"h\": 16, \"y\": 44, \"w\": 9, \"i\": \"3\"}}, {\"panelIndex\": \"4\", \"panelRefName\": \"panel_3\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"Event Codes [Winlogbeat Security]\", \"gridData\": {\"x\": 35, \"h\": 19, \"y\": 0, \"w\": 13, \"i\": \"4\"}}, {\"panelIndex\": \"5\", \"panelRefName\": \"panel_4\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"Enabled Users [Winlogbeat Security]\", \"gridData\": {\"x\": 9, \"h\": 16, \"y\": 44, \"w\": 9, \"i\": \"5\"}}, {\"panelIndex\": \"6\", \"panelRefName\": \"panel_5\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"Disabled Users [Winlogbeat Security]\", \"gridData\": {\"x\": 0, \"h\": 16, \"y\": 66, \"w\": 9, \"i\": \"6\"}}, {\"panelIndex\": \"7\", \"panelRefName\": \"panel_6\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"Deleted Users [Winlogbeat Security]\", \"gridData\": {\"x\": 18, \"h\": 16, \"y\": 44, \"w\": 9, \"i\": \"7\"}}, {\"panelIndex\": \"8\", \"panelRefName\": \"panel_7\", \"version\": \"7.3.0\", \"embeddableConfig\": {\"vis\": {\"defaultColors\": {\"0 - 4\": \"rgb(247,252,245)\", \"4 - 8\": \"rgb(199,233,192)\", \"8 - 12\": \"rgb(116,196,118)\", \"12 - 16\": \"rgb(35,139,69)\"}, \"legendOpen\": false}}, \"title\": \"Actions performed over Users [Winlogbeat Security]\", \"gridData\": {\"x\": 0, \"h\": 20, \"y\": 19, \"w\": 48, \"i\": \"8\"}}, {\"panelIndex\": \"9\", \"panelRefName\": \"panel_8\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"Passwords Changes [Winlogbeat Security]\", \"gridData\": {\"x\": 18, \"h\": 16, \"y\": 66, \"w\": 9, \"i\": \"9\"}}, {\"panelIndex\": \"10\", \"panelRefName\": \"panel_9\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"\", \"gridData\": {\"x\": 0, \"h\": 5, \"y\": 39, \"w\": 9, \"i\": \"10\"}}, {\"panelIndex\": \"11\", \"panelRefName\": \"panel_10\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"\", \"gridData\": {\"x\": 9, \"h\": 5, \"y\": 39, \"w\": 9, \"i\": \"11\"}}, {\"panelIndex\": \"12\", \"panelRefName\": \"panel_11\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"\", \"gridData\": {\"x\": 18, \"h\": 5, \"y\": 39, \"w\": 9, \"i\": \"12\"}}, {\"panelIndex\": \"13\", \"panelRefName\": \"panel_12\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"\", \"gridData\": {\"x\": 0, \"h\": 6, \"y\": 60, \"w\": 9, \"i\": \"13\"}}, {\"panelIndex\": \"14\", \"panelRefName\": \"panel_13\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"\", \"gridData\": {\"x\": 18, \"h\": 6, \"y\": 60, \"w\": 9, \"i\": \"14\"}}, {\"panelIndex\": \"15\", \"panelRefName\": \"panel_14\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"Unlocked Users [Winlogbeat Security]\", \"gridData\": {\"x\": 9, \"h\": 16, \"y\": 66, \"w\": 9, \"i\": \"15\"}}, {\"panelIndex\": \"16\", \"panelRefName\": \"panel_15\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"Users Changes [Winlogbeat Security]\", \"gridData\": {\"x\": 18, \"h\": 16, \"y\": 88, \"w\": 9, \"i\": \"16\"}}, {\"panelIndex\": \"17\", \"panelRefName\": \"panel_16\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"\", \"gridData\": {\"x\": 0, \"h\": 6, \"y\": 82, \"w\": 9, \"i\": \"17\"}}, {\"panelIndex\": \"18\", \"panelRefName\": \"panel_17\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"\", \"gridData\": {\"x\": 9, \"h\": 6, \"y\": 60, \"w\": 9, \"i\": \"18\"}}, {\"panelIndex\": \"19\", \"panelRefName\": \"panel_18\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"\", \"gridData\": {\"x\": 18, \"h\": 6, \"y\": 82, \"w\": 9, \"i\": \"19\"}}, {\"panelIndex\": \"20\", \"panelRefName\": \"panel_19\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"Locked-out Users [Winlogbeat Security]\", \"gridData\": {\"x\": 0, \"h\": 16, \"y\": 88, \"w\": 9, \"i\": \"20\"}}, {\"panelIndex\": \"21\", \"panelRefName\": \"panel_20\", \"version\": \"7.3.0\", \"embeddableConfig\": {}, \"title\": \"User Management Actions Distributions over Time [Winlogbeat Security]\", \"gridData\": {\"x\": 27, \"h\": 27, \"y\": 39, \"w\": 20, \"i\": \"21\"}}, {\"embeddableConfig\": {}, \"panelIndex\": \"22\", \"gridData\": {\"x\": 27, \"h\": 38, \"y\": 66, \"w\": 21, \"i\": \"22\"}, \"panelRefName\": \"panel_21\", \"version\": \"7.3.1\"}, {\"embeddableConfig\": {}, \"panelIndex\": \"23\", \"gridData\": {\"x\": 0, \"h\": 19, \"y\": 104, \"w\": 48, \"i\": \"23\"}, \"panelRefName\": \"panel_22\", \"version\": \"7.3.1\"}, {\"panelIndex\": \"24\", \"panelRefName\": \"panel_23\", \"version\": \"7.3.1\", \"embeddableConfig\": {}, \"title\": \"\", \"gridData\": {\"x\": 9, \"h\": 6, \"y\": 82, \"w\": 9, \"i\": \"24\"}}, {\"embeddableConfig\": {}, \"panelIndex\": \"25\", \"gridData\": {\"x\": 9, \"h\": 16, \"y\": 88, \"w\": 9, \"i\": \"25\"}, \"panelRefName\": \"panel_24\", \"version\": \"7.3.1\"}]",
+                "timeRestore": false,
+                "title": "[Winlogbeat Security] User Management Events - Simple Metric",
+                "version": 1
+            },
+            "id": "8223bed0-b9e9-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "dashboard": "7.3.0"
+            },
+            "references": [
+                {
+                    "id": "2dc6b820-b9e8-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_0",
+                    "type": "visualization"
+                },
+                {
+                    "id": "833e0110-b9ec-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_1",
+                    "type": "visualization"
+                },
+                {
+                    "id": "5e7f0ed0-bcd2-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_2",
+                    "type": "visualization"
+                },
+                {
+                    "id": "b2cecf10-bcd3-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_3",
+                    "type": "visualization"
+                },
+                {
+                    "id": "0620c3d0-bcd4-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_4",
+                    "type": "visualization"
+                },
+                {
+                    "id": "8f20c950-bcd4-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_5",
+                    "type": "visualization"
+                },
+                {
+                    "id": "ee0319a0-bcd4-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_6",
+                    "type": "visualization"
+                },
+                {
+                    "id": "dce77e60-bcd7-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_7",
+                    "type": "visualization"
+                },
+                {
+                    "id": "da5ffe40-bcd9-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_8",
+                    "type": "visualization"
+                },
+                {
+                    "id": "102efd20-bcdd-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_9",
+                    "type": "visualization"
+                },
+                {
+                    "id": "855957d0-bcdd-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_10",
+                    "type": "visualization"
+                },
+                {
+                    "id": "c359b020-bcdd-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_11",
+                    "type": "visualization"
+                },
+                {
+                    "id": "0cb2d940-bcde-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_12",
+                    "type": "visualization"
+                },
+                {
+                    "id": "568a8130-bcde-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_13",
+                    "type": "visualization"
+                },
+                {
+                    "id": "da2110c0-bcea-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_14",
+                    "type": "visualization"
+                },
+                {
+                    "id": "abf96c10-bcea-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_15",
+                    "type": "visualization"
+                },
+                {
+                    "id": "84502430-bce8-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_16",
+                    "type": "visualization"
+                },
+                {
+                    "id": "ab6f8d80-bce8-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_17",
+                    "type": "visualization"
+                },
+                {
+                    "id": "5d92b100-bce8-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_18",
+                    "type": "visualization"
+                },
+                {
+                    "id": "4ac8f5f0-bcfe-11e9-b6a2-c9b4015c4baf",
+                    "name": "panel_19",
+                    "type": "visualization"
+                },
+                {
+                    "id": "8f723a10-bd97-11e9-b9c5-fddc96658612",
+                    "name": "panel_20",
+                    "type": "visualization"
+                },
+                {
+                    "id": "7e178c80-fee1-11e9-8405-516218e3d268",
+                    "name": "panel_21",
+                    "type": "search"
+                },
+                {
+                    "id": "324686c0-fefb-11e9-8405-516218e3d268",
+                    "name": "panel_22",
+                    "type": "search"
+                },
+                {
+                    "id": "5e19ff80-231c-11ea-8405-516218e3d268",
+                    "name": "panel_23",
+                    "type": "visualization"
+                },
+                {
+                    "id": "fa876300-231a-11ea-8405-516218e3d268",
+                    "name": "panel_24",
+                    "type": "visualization"
+                }
+            ],
+            "type": "dashboard",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "WzcwLDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [], \"query\": {\"query\": \"\", \"language\": \"kuery\"}}"
+                },
+                "title": "User  Management Events - Description [Winlogbeat Security]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"title\": \"User  Management Events - Description [Winlogbeat Security]\", \"type\": \"markdown\", \"params\": {\"openLinksInNewTab\": false, \"fontSize\": 10, \"markdown\": \"# **User Management Events**\\n\\n#### This dashboard shows information about User Management Events collected by winlogbeat\\n#\\n#\\n#\\nEvent | Description\\n-- | --\\n4720 | A user account was created\\n4722 | A user account was enabled\\n4723 | An attempt was made to change an account's password\\n4724 | An attempt was made to reset an account's password\\n4725 | An user account was disabled\\n4726 | An user account was deleted\\n4738 | An user account was changed\\n4740 | An user account was locked out\\n4767 | An account was unlocked\\n4781 | The name of an account was changed\"}, \"aggs\": []}"
+            },
+            "id": "2dc6b820-b9e8-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "WzcxLDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"bool\": {\"should\": [{\"match_phrase\": {\"event.code\": \"4720\"}}, {\"match_phrase\": {\"event.code\": \"4722\"}}, {\"match_phrase\": {\"event.code\": \"4723\"}}, {\"match_phrase\": {\"event.code\": \"4724\"}}, {\"match_phrase\": {\"event.code\": \"4725\"}}, {\"match_phrase\": {\"event.code\": \"4726\"}}, {\"match_phrase\": {\"event.code\": \"4738\"}}, {\"match_phrase\": {\"event.code\": \"4740\"}}, {\"match_phrase\": {\"event.code\": \"4765\"}}, {\"match_phrase\": {\"event.code\": \"4766\"}}, {\"match_phrase\": {\"event.code\": \"4767\"}}, {\"match_phrase\": {\"event.code\": \"4780\"}}, {\"match_phrase\": {\"event.code\": \"4781\"}}, {\"match_phrase\": {\"event.code\": \"4794\"}}, {\"match_phrase\": {\"event.code\": \"5376\"}}, {\"match_phrase\": {\"event.code\": \"5377\"}}], \"minimum_should_match\": 1}}, \"meta\": {\"alias\": null, \"value\": \"4720, 4722, 4723, 4724, 4725, 4726, 4738, 4740, 4765, 4766, 4767, 4780, 4781, 4794, 5376, 5377\", \"key\": \"event.code\", \"type\": \"phrases\", \"params\": [\"4720\", \"4722\", \"4723\", \"4724\", \"4725\", \"4726\", \"4738\", \"4740\", \"4765\", \"4766\", \"4767\", \"4780\", \"4781\", \"4794\", \"5376\", \"5377\"], \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "User Management Events - Event Actions - Donut [Winlogbeat Security]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"title\": \"User Management Events - Event Actions - Donut [Winlogbeat Security]\", \"type\": \"pie\", \"params\": {\"addTooltip\": true, \"labels\": {\"last_level\": true, \"show\": true, \"truncate\": 100, \"values\": true}, \"isDonut\": true, \"type\": \"pie\", \"addLegend\": true, \"dimensions\": {\"metric\": {\"format\": {\"id\": \"number\"}, \"accessor\": 1, \"params\": {}, \"aggType\": \"count\"}, \"buckets\": [{\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 0, \"params\": {}, \"aggType\": \"terms\"}]}, \"legendPosition\": \"right\"}, \"aggs\": [{\"params\": {}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}, {\"params\": {\"field\": \"event.action\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"segment\", \"type\": \"terms\", \"enabled\": true, \"id\": \"2\"}]}"
+            },
+            "id": "833e0110-b9ec-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "WzcyLDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"match\": {\"event.code\": {\"type\": \"phrase\", \"query\": \"4720\"}}}, \"meta\": {\"alias\": null, \"value\": \"4720\", \"key\": \"event.code\", \"type\": \"phrase\", \"params\": {\"query\": \"4720\"}, \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Created - Table [Winlogbeat Security]",
+                "uiStateJSON": "{\"vis\": {\"params\": {\"sort\": {\"direction\": null, \"columnIndex\": null}}}}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Created - Table [Winlogbeat Security]\", \"type\": \"table\", \"params\": {\"showMetricsAtAllLevels\": false, \"totalFunc\": \"sum\", \"showTotal\": false, \"sort\": {\"direction\": null, \"columnIndex\": null}, \"showPartialRows\": false, \"dimensions\": {\"buckets\": [{\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 0, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 1, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 2, \"params\": {}, \"aggType\": \"terms\"}], \"metrics\": [{\"format\": {\"id\": \"number\"}, \"accessor\": 3, \"params\": {}, \"aggType\": \"count\"}]}, \"perPage\": 10}, \"aggs\": [{\"params\": {}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}, {\"params\": {\"field\": \"winlog.event_data.TargetUserName\", \"customLabel\": \"Created User\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 100}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"2\"}, {\"params\": {\"field\": \"winlog.event_data.SubjectUserName\", \"customLabel\": \"Performed by\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": true, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"3\"}, {\"params\": {\"field\": \"winlog.logon.id\", \"customLabel\": \"Performer LogonID\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"4\"}]}"
+            },
+            "id": "5e7f0ed0-bcd2-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "WzczLDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"bool\": {\"should\": [{\"match_phrase\": {\"event.code\": \"4720\"}}, {\"match_phrase\": {\"event.code\": \"4722\"}}, {\"match_phrase\": {\"event.code\": \"4723\"}}, {\"match_phrase\": {\"event.code\": \"4724\"}}, {\"match_phrase\": {\"event.code\": \"4725\"}}, {\"match_phrase\": {\"event.code\": \"4726\"}}, {\"match_phrase\": {\"event.code\": \"4738\"}}, {\"match_phrase\": {\"event.code\": \"4740\"}}, {\"match_phrase\": {\"event.code\": \"4765\"}}, {\"match_phrase\": {\"event.code\": \"4766\"}}, {\"match_phrase\": {\"event.code\": \"4767\"}}, {\"match_phrase\": {\"event.code\": \"4780\"}}, {\"match_phrase\": {\"event.code\": \"4781\"}}, {\"match_phrase\": {\"event.code\": \"4794\"}}, {\"match_phrase\": {\"event.code\": \"5376\"}}, {\"match_phrase\": {\"event.code\": \"5377\"}}], \"minimum_should_match\": 1}}, \"meta\": {\"alias\": null, \"value\": \"4720, 4722, 4723, 4724, 4725, 4726, 4738, 4740, 4765, 4766, 4767, 4780, 4781, 4794, 5376, 5377\", \"key\": \"event.code\", \"type\": \"phrases\", \"params\": [\"4720\", \"4722\", \"4723\", \"4724\", \"4725\", \"4726\", \"4738\", \"4740\", \"4765\", \"4766\", \"4767\", \"4780\", \"4781\", \"4794\", \"5376\", \"5377\"], \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "User Management Events - Event Actions - Table [Winlogbeat Security]",
+                "uiStateJSON": "{\"vis\": {\"params\": {\"sort\": {\"direction\": null, \"columnIndex\": null}}}}",
+                "version": 1,
+                "visState": "{\"title\": \"User Management Events - Event Actions - Table [Winlogbeat Security]\", \"type\": \"table\", \"params\": {\"showMetricsAtAllLevels\": false, \"totalFunc\": \"sum\", \"showTotal\": false, \"sort\": {\"direction\": null, \"columnIndex\": null}, \"showPartialRows\": false, \"dimensions\": {\"buckets\": [{\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 0, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 1, \"params\": {}, \"aggType\": \"terms\"}], \"metrics\": [{\"format\": {\"id\": \"number\"}, \"accessor\": 2, \"params\": {}, \"aggType\": \"count\"}]}, \"perPage\": 10}, \"aggs\": [{\"params\": {}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}, {\"params\": {\"field\": \"event.action\", \"customLabel\": \"Event Short Description\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 10}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"2\"}, {\"params\": {\"field\": \"event.code\", \"customLabel\": \"Event Code\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"3\"}]}"
+            },
+            "id": "b2cecf10-bcd3-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "Wzc0LDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"match\": {\"event.code\": {\"type\": \"phrase\", \"query\": \"4722\"}}}, \"meta\": {\"alias\": null, \"value\": \"4722\", \"key\": \"event.code\", \"type\": \"phrase\", \"params\": {\"query\": \"4722\"}, \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Enabled - Table [Winlogbeat Security]",
+                "uiStateJSON": "{\"vis\": {\"params\": {\"sort\": {\"direction\": null, \"columnIndex\": null}}}}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Enabled - Table [Winlogbeat Security]\", \"type\": \"table\", \"params\": {\"showMetricsAtAllLevels\": false, \"totalFunc\": \"sum\", \"showTotal\": false, \"sort\": {\"direction\": null, \"columnIndex\": null}, \"showPartialRows\": false, \"dimensions\": {\"buckets\": [{\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 0, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 1, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 2, \"params\": {}, \"aggType\": \"terms\"}], \"metrics\": [{\"format\": {\"id\": \"number\"}, \"accessor\": 3, \"params\": {}, \"aggType\": \"count\"}]}, \"perPage\": 10}, \"aggs\": [{\"params\": {}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}, {\"params\": {\"field\": \"winlog.event_data.TargetUserName\", \"customLabel\": \"Enabled User\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 100}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"2\"}, {\"params\": {\"field\": \"winlog.event_data.SubjectUserName\", \"customLabel\": \"Performed by\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": true, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"3\"}, {\"params\": {\"field\": \"winlog.logon.id\", \"customLabel\": \"Performer LogonId\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"4\"}]}"
+            },
+            "id": "0620c3d0-bcd4-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "Wzc1LDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"match\": {\"event.code\": {\"type\": \"phrase\", \"query\": \"4725\"}}}, \"meta\": {\"alias\": null, \"value\": \"4725\", \"key\": \"event.code\", \"type\": \"phrase\", \"params\": {\"query\": \"4725\"}, \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Disabled - Table [Winlogbeat Security]",
+                "uiStateJSON": "{\"vis\": {\"params\": {\"sort\": {\"direction\": null, \"columnIndex\": null}}}}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Disabled - Table [Winlogbeat Security]\", \"type\": \"table\", \"params\": {\"showMetricsAtAllLevels\": false, \"totalFunc\": \"sum\", \"showTotal\": false, \"sort\": {\"direction\": null, \"columnIndex\": null}, \"showPartialRows\": false, \"dimensions\": {\"buckets\": [{\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 0, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 1, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 2, \"params\": {}, \"aggType\": \"terms\"}], \"metrics\": [{\"format\": {\"id\": \"number\"}, \"accessor\": 3, \"params\": {}, \"aggType\": \"count\"}]}, \"perPage\": 10}, \"aggs\": [{\"params\": {}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}, {\"params\": {\"field\": \"winlog.event_data.TargetUserName\", \"customLabel\": \"Disabled User\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 100}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"2\"}, {\"params\": {\"field\": \"winlog.event_data.SubjectUserName\", \"customLabel\": \"Performed by\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": true, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"3\"}, {\"params\": {\"field\": \"winlog.logon.id\", \"customLabel\": \"Performer LogonId\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"4\"}]}"
+            },
+            "id": "8f20c950-bcd4-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "Wzc2LDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"match\": {\"event.code\": {\"type\": \"phrase\", \"query\": \"4726\"}}}, \"meta\": {\"alias\": null, \"value\": \"4726\", \"key\": \"event.code\", \"type\": \"phrase\", \"params\": {\"query\": \"4726\"}, \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Deleted - Table [Winlogbeat Security]",
+                "uiStateJSON": "{\"vis\": {\"params\": {\"sort\": {\"direction\": null, \"columnIndex\": null}}}}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Deleted - Table [Winlogbeat Security]\", \"type\": \"table\", \"params\": {\"showMetricsAtAllLevels\": false, \"totalFunc\": \"sum\", \"showTotal\": false, \"sort\": {\"direction\": null, \"columnIndex\": null}, \"showPartialRows\": false, \"dimensions\": {\"buckets\": [{\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 0, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 1, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 2, \"params\": {}, \"aggType\": \"terms\"}], \"metrics\": [{\"format\": {\"id\": \"number\"}, \"accessor\": 3, \"params\": {}, \"aggType\": \"count\"}]}, \"perPage\": 10}, \"aggs\": [{\"params\": {}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}, {\"params\": {\"field\": \"winlog.event_data.TargetUserName\", \"customLabel\": \"Deleted User\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 100}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"2\"}, {\"params\": {\"field\": \"winlog.event_data.SubjectUserName\", \"customLabel\": \"Performed by\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": true, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"3\"}, {\"params\": {\"field\": \"winlog.logon.id\", \"customLabel\": \"Performed LogonId\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"4\"}]}"
+            },
+            "id": "ee0319a0-bcd4-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "Wzc3LDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"bool\": {\"should\": [{\"match_phrase\": {\"event.code\": \"4720\"}}, {\"match_phrase\": {\"event.code\": \"4722\"}}, {\"match_phrase\": {\"event.code\": \"4723\"}}, {\"match_phrase\": {\"event.code\": \"4724\"}}, {\"match_phrase\": {\"event.code\": \"4725\"}}, {\"match_phrase\": {\"event.code\": \"4726\"}}, {\"match_phrase\": {\"event.code\": \"4738\"}}, {\"match_phrase\": {\"event.code\": \"4740\"}}, {\"match_phrase\": {\"event.code\": \"4765\"}}, {\"match_phrase\": {\"event.code\": \"4766\"}}, {\"match_phrase\": {\"event.code\": \"4767\"}}, {\"match_phrase\": {\"event.code\": \"4780\"}}, {\"match_phrase\": {\"event.code\": \"4781\"}}, {\"match_phrase\": {\"event.code\": \"4794\"}}, {\"match_phrase\": {\"event.code\": \"5376\"}}, {\"match_phrase\": {\"event.code\": \"5377\"}}], \"minimum_should_match\": 1}}, \"meta\": {\"alias\": null, \"value\": \"4720, 4722, 4723, 4724, 4725, 4726, 4738, 4740, 4765, 4766, 4767, 4780, 4781, 4794, 5376, 5377\", \"key\": \"event.code\", \"type\": \"phrases\", \"params\": [\"4720\", \"4722\", \"4723\", \"4724\", \"4725\", \"4726\", \"4738\", \"4740\", \"4765\", \"4766\", \"4767\", \"4780\", \"4781\", \"4794\", \"5376\", \"5377\"], \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "User Management Events - Affected Users vs Actions - Heatmap [Winlogbeat Security]",
+                "uiStateJSON": "{\"vis\": {\"defaultColors\": {\"0 - 14\": \"rgb(247,251,255)\", \"14 - 28\": \"rgb(198,219,239)\", \"42 - 55\": \"rgb(33,113,181)\", \"28 - 42\": \"rgb(107,174,214)\"}}}",
+                "version": 1,
+                "visState": "{\"title\": \"User Management Events - Affected Users vs Actions - Heatmap [Winlogbeat Security]\", \"type\": \"heatmap\", \"params\": {\"addTooltip\": true, \"colorsRange\": [], \"colorsNumber\": 4, \"addLegend\": true, \"enableHover\": false, \"legendPosition\": \"right\", \"setColorRange\": false, \"invertColors\": false, \"valueAxes\": [{\"type\": \"value\", \"show\": false, \"labels\": {\"overwriteColor\": false, \"show\": true, \"color\": \"black\", \"rotate\": 0}, \"scale\": {\"type\": \"linear\", \"defaultYExtents\": false}, \"id\": \"ValueAxis-1\"}], \"percentageMode\": false, \"type\": \"heatmap\", \"colorSchema\": \"Blues\", \"dimensions\": {\"x\": {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 0, \"params\": {}, \"aggType\": \"terms\"}, \"y\": [{\"format\": {\"id\": \"number\"}, \"accessor\": 2, \"params\": {}, \"aggType\": \"count\"}], \"series\": [{\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 1, \"params\": {}, \"aggType\": \"terms\"}]}, \"times\": []}, \"aggs\": [{\"params\": {}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}, {\"params\": {\"field\": \"winlog.event_data.TargetUserName\", \"customLabel\": \"Target User\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 15}, \"schema\": \"segment\", \"type\": \"terms\", \"enabled\": true, \"id\": \"2\"}, {\"params\": {\"field\": \"event.action\", \"customLabel\": \"Operation\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 10}, \"schema\": \"group\", \"type\": \"terms\", \"enabled\": true, \"id\": \"3\"}]}"
+            },
+            "id": "dce77e60-bcd7-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "Wzc4LDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"bool\": {\"should\": [{\"match_phrase\": {\"event.code\": \"4723\"}}, {\"match_phrase\": {\"event.code\": \"4724\"}}], \"minimum_should_match\": 1}}, \"meta\": {\"alias\": null, \"value\": \"4723, 4724\", \"key\": \"event.code\", \"type\": \"phrases\", \"params\": [\"4723\", \"4724\"], \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Password Changes - Table [Winlogbeat Security]",
+                "uiStateJSON": "{\"vis\": {\"params\": {\"sort\": {\"direction\": null, \"columnIndex\": null}}}}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Password Changes - Table [Winlogbeat Security]\", \"type\": \"table\", \"params\": {\"showMetricsAtAllLevels\": false, \"totalFunc\": \"sum\", \"showTotal\": false, \"sort\": {\"direction\": null, \"columnIndex\": null}, \"showPartialRows\": false, \"dimensions\": {\"buckets\": [{\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 0, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 1, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 2, \"params\": {}, \"aggType\": \"terms\"}], \"metrics\": [{\"format\": {\"id\": \"number\"}, \"accessor\": 3, \"params\": {}, \"aggType\": \"count\"}]}, \"perPage\": 10}, \"aggs\": [{\"params\": {}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}, {\"params\": {\"field\": \"winlog.event_data.TargetUserName\", \"customLabel\": \"Password Change to\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 100}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"2\"}, {\"params\": {\"field\": \"winlog.event_data.SubjectUserName\", \"customLabel\": \"Performed by\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": true, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"3\"}, {\"params\": {\"field\": \"winlog.logon.id\", \"customLabel\": \"Performer LogonId\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"4\"}]}"
+            },
+            "id": "da5ffe40-bcd9-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "Wzc5LDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"match\": {\"event.code\": {\"type\": \"phrase\", \"query\": \"4720\"}}}, \"meta\": {\"alias\": null, \"value\": \"4720\", \"key\": \"event.code\", \"type\": \"phrase\", \"params\": {\"query\": \"4720\"}, \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Created - Simple Metric [Winlogbeat Security]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Created - Simple Metric [Winlogbeat Security]\", \"type\": \"metric\", \"params\": {\"addTooltip\": true, \"metric\": {\"labels\": {\"show\": true}, \"colorsRange\": [{\"from\": 0, \"type\": \"range\", \"to\": 10000}], \"invertColors\": false, \"percentageMode\": false, \"useRanges\": false, \"style\": {\"labelColor\": false, \"bgColor\": false, \"bgFill\": \"#000\", \"fontSize\": 60, \"subText\": \"\"}, \"metricColorMode\": \"None\", \"colorSchema\": \"Green to Red\"}, \"addLegend\": false, \"dimensions\": {\"metrics\": [{\"format\": {\"params\": {}, \"id\": \"number\"}, \"type\": \"vis_dimension\", \"accessor\": 0}]}, \"type\": \"metric\"}, \"aggs\": [{\"params\": {\"customLabel\": \"Users Created\"}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}]}"
+            },
+            "id": "102efd20-bcdd-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "WzgwLDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"match\": {\"event.code\": {\"type\": \"phrase\", \"query\": \"4722\"}}}, \"meta\": {\"alias\": null, \"value\": \"4722\", \"key\": \"event.code\", \"type\": \"phrase\", \"params\": {\"query\": \"4722\"}, \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Enabled - Simple Metric [Winlogbeat Security]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Enabled - Simple Metric [Winlogbeat Security]\", \"type\": \"metric\", \"params\": {\"addTooltip\": true, \"metric\": {\"labels\": {\"show\": true}, \"colorsRange\": [{\"from\": 0, \"type\": \"range\", \"to\": 10000}], \"invertColors\": false, \"percentageMode\": false, \"useRanges\": false, \"style\": {\"labelColor\": false, \"bgColor\": false, \"bgFill\": \"#000\", \"fontSize\": 60, \"subText\": \"\"}, \"metricColorMode\": \"None\", \"colorSchema\": \"Green to Red\"}, \"addLegend\": false, \"dimensions\": {\"metrics\": [{\"format\": {\"params\": {}, \"id\": \"number\"}, \"type\": \"vis_dimension\", \"accessor\": 0}]}, \"type\": \"metric\"}, \"aggs\": [{\"params\": {\"field\": \"user.name\", \"customLabel\": \"Users Enabled\"}, \"schema\": \"metric\", \"type\": \"cardinality\", \"enabled\": true, \"id\": \"1\"}]}"
+            },
+            "id": "855957d0-bcdd-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "WzgxLDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"match\": {\"event.code\": {\"type\": \"phrase\", \"query\": \"4726\"}}}, \"meta\": {\"alias\": null, \"value\": \"4726\", \"key\": \"event.code\", \"type\": \"phrase\", \"params\": {\"query\": \"4726\"}, \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Deleted - Simple Metric [Winlogbeat Security]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Deleted - Simple Metric [Winlogbeat Security]\", \"type\": \"metric\", \"params\": {\"addTooltip\": true, \"metric\": {\"labels\": {\"show\": true}, \"colorsRange\": [{\"from\": 0, \"type\": \"range\", \"to\": 10000}], \"invertColors\": false, \"percentageMode\": false, \"useRanges\": false, \"style\": {\"labelColor\": false, \"bgColor\": false, \"bgFill\": \"#000\", \"fontSize\": 60, \"subText\": \"\"}, \"metricColorMode\": \"None\", \"colorSchema\": \"Green to Red\"}, \"addLegend\": false, \"dimensions\": {\"metrics\": [{\"format\": {\"params\": {}, \"id\": \"number\"}, \"type\": \"vis_dimension\", \"accessor\": 0}]}, \"type\": \"metric\"}, \"aggs\": [{\"params\": {\"customLabel\": \"Deleted Users\"}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}]}"
+            },
+            "id": "c359b020-bcdd-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "WzgyLDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"match\": {\"event.code\": {\"type\": \"phrase\", \"query\": \"4725\"}}}, \"meta\": {\"alias\": null, \"value\": \"4725\", \"key\": \"event.code\", \"type\": \"phrase\", \"params\": {\"query\": \"4725\"}, \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Disabled - Simple Metric [Winlogbeat Security]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Disabled - Simple Metric [Winlogbeat Security]\", \"type\": \"metric\", \"params\": {\"addTooltip\": true, \"metric\": {\"labels\": {\"show\": true}, \"colorsRange\": [{\"from\": 0, \"type\": \"range\", \"to\": 10000}], \"invertColors\": false, \"percentageMode\": false, \"useRanges\": false, \"style\": {\"labelColor\": false, \"bgColor\": false, \"bgFill\": \"#000\", \"fontSize\": 60, \"subText\": \"\"}, \"metricColorMode\": \"None\", \"colorSchema\": \"Green to Red\"}, \"addLegend\": false, \"dimensions\": {\"metrics\": [{\"format\": {\"params\": {}, \"id\": \"number\"}, \"type\": \"vis_dimension\", \"accessor\": 0}]}, \"type\": \"metric\"}, \"aggs\": [{\"params\": {\"field\": \"user.name\", \"customLabel\": \"Disabled Users\"}, \"schema\": \"metric\", \"type\": \"cardinality\", \"enabled\": true, \"id\": \"1\"}]}"
+            },
+            "id": "0cb2d940-bcde-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "WzgzLDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"bool\": {\"should\": [{\"match_phrase\": {\"event.code\": \"4723\"}}, {\"match_phrase\": {\"event.code\": \"4724\"}}], \"minimum_should_match\": 1}}, \"meta\": {\"alias\": null, \"value\": \"4723, 4724\", \"key\": \"event.code\", \"type\": \"phrases\", \"params\": [\"4723\", \"4724\"], \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Password Reset / Changes [Winlogbeat Security]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Password Reset / Changes [Winlogbeat Security]\", \"type\": \"metric\", \"params\": {\"addTooltip\": true, \"metric\": {\"labels\": {\"show\": true}, \"colorsRange\": [{\"from\": 0, \"type\": \"range\", \"to\": 10000}], \"invertColors\": false, \"percentageMode\": false, \"useRanges\": false, \"style\": {\"labelColor\": false, \"bgColor\": false, \"bgFill\": \"#000\", \"fontSize\": 60, \"subText\": \"\"}, \"metricColorMode\": \"None\", \"colorSchema\": \"Green to Red\"}, \"addLegend\": false, \"dimensions\": {\"metrics\": [{\"format\": {\"params\": {}, \"id\": \"number\"}, \"type\": \"vis_dimension\", \"accessor\": 0}]}, \"type\": \"metric\"}, \"aggs\": [{\"params\": {\"customLabel\": \"Password Changes\"}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}]}"
+            },
+            "id": "568a8130-bcde-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "Wzg0LDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"match\": {\"event.code\": {\"type\": \"phrase\", \"query\": \"4767\"}}}, \"meta\": {\"alias\": null, \"value\": \"4767\", \"key\": \"event.code\", \"type\": \"phrase\", \"params\": {\"query\": \"4767\"}, \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Unlocked Users - Table [Winlogbeat Security]",
+                "uiStateJSON": "{\"vis\": {\"params\": {\"sort\": {\"direction\": null, \"columnIndex\": null}}}}",
+                "version": 1,
+                "visState": "{\"title\": \"Unlocked Users - Table [Winlogbeat Security]\", \"type\": \"table\", \"params\": {\"showMetricsAtAllLevels\": false, \"totalFunc\": \"sum\", \"showTotal\": false, \"sort\": {\"direction\": null, \"columnIndex\": null}, \"showPartialRows\": false, \"dimensions\": {\"buckets\": [{\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 0, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 1, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 2, \"params\": {}, \"aggType\": \"terms\"}], \"metrics\": [{\"format\": {\"id\": \"number\"}, \"accessor\": 3, \"params\": {}, \"aggType\": \"count\"}]}, \"perPage\": 10}, \"aggs\": [{\"params\": {}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}, {\"params\": {\"field\": \"winlog.event_data.TargetUserName\", \"customLabel\": \"Unlocked User\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 100}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"2\"}, {\"params\": {\"field\": \"winlog.event_data.SubjectUserName\", \"customLabel\": \"Performed by\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": true, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"3\"}, {\"params\": {\"field\": \"winlog.logon.id\", \"customLabel\": \"Performer Logonid\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"4\"}]}"
+            },
+            "id": "da2110c0-bcea-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "Wzg1LDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"match\": {\"event.code\": {\"type\": \"phrase\", \"query\": \"4738\"}}}, \"meta\": {\"alias\": null, \"value\": \"4738\", \"key\": \"event.code\", \"type\": \"phrase\", \"params\": {\"query\": \"4738\"}, \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Changes  Table [Winlogbeat Security]",
+                "uiStateJSON": "{\"vis\": {\"params\": {\"sort\": {\"direction\": null, \"columnIndex\": null}}}}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Changes  Table [Winlogbeat Security]\", \"type\": \"table\", \"params\": {\"showMetricsAtAllLevels\": false, \"totalFunc\": \"sum\", \"showTotal\": false, \"sort\": {\"direction\": null, \"columnIndex\": null}, \"showPartialRows\": false, \"dimensions\": {\"buckets\": [{\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 0, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 1, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 2, \"params\": {}, \"aggType\": \"terms\"}], \"metrics\": [{\"format\": {\"id\": \"number\"}, \"accessor\": 3, \"params\": {}, \"aggType\": \"count\"}]}, \"perPage\": 10}, \"aggs\": [{\"params\": {}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}, {\"params\": {\"field\": \"winlog.event_data.TargetUserName\", \"customLabel\": \"Changed  User\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 100}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"2\"}, {\"params\": {\"field\": \"winlog.event_data.SubjectUserName\", \"customLabel\": \"Performed by\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": true, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"3\"}, {\"params\": {\"field\": \"winlog.logon.id\", \"customLabel\": \"Performer LogonId\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"4\"}]}"
+            },
+            "id": "abf96c10-bcea-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "Wzg2LDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"bool\": {\"should\": [{\"match_phrase\": {\"event.code\": \"4740\"}}], \"minimum_should_match\": 1}}, \"meta\": {\"alias\": null, \"value\": \"4740\", \"key\": \"event.code\", \"type\": \"phrases\", \"params\": [\"4740\"], \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Unlocks - Simple Metric [Winlogbeat Security]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Unlocks - Simple Metric [Winlogbeat Security]\", \"type\": \"metric\", \"params\": {\"addTooltip\": true, \"metric\": {\"labels\": {\"show\": true}, \"colorsRange\": [{\"from\": 0, \"type\": \"range\", \"to\": 10000}], \"invertColors\": false, \"percentageMode\": false, \"useRanges\": false, \"style\": {\"labelColor\": false, \"bgColor\": false, \"bgFill\": \"#000\", \"fontSize\": 60, \"subText\": \"\"}, \"metricColorMode\": \"None\", \"colorSchema\": \"Green to Red\"}, \"addLegend\": false, \"dimensions\": {\"metrics\": [{\"format\": {\"params\": {}, \"id\": \"number\"}, \"type\": \"vis_dimension\", \"accessor\": 0}]}, \"type\": \"metric\"}, \"aggs\": [{\"params\": {\"customLabel\": \"Users Locked Out\"}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}]}"
+            },
+            "id": "84502430-bce8-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "Wzg3LDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"bool\": {\"should\": [{\"match_phrase\": {\"event.code\": \"4767\"}}], \"minimum_should_match\": 1}}, \"meta\": {\"alias\": null, \"value\": \"4767\", \"key\": \"event.code\", \"type\": \"phrases\", \"params\": [\"4767\"], \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Unlocked Users - Simple Metric [Winlogbeat Security]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"title\": \"Unlocked Users - Simple Metric [Winlogbeat Security]\", \"type\": \"metric\", \"params\": {\"addTooltip\": true, \"metric\": {\"labels\": {\"show\": true}, \"colorsRange\": [{\"from\": 0, \"type\": \"range\", \"to\": 10000}], \"invertColors\": false, \"percentageMode\": false, \"useRanges\": false, \"style\": {\"labelColor\": false, \"bgColor\": false, \"bgFill\": \"#000\", \"fontSize\": 60, \"subText\": \"\"}, \"metricColorMode\": \"None\", \"colorSchema\": \"Green to Red\"}, \"addLegend\": false, \"dimensions\": {\"metrics\": [{\"format\": {\"params\": {}, \"id\": \"number\"}, \"type\": \"vis_dimension\", \"accessor\": 0}]}, \"type\": \"metric\"}, \"aggs\": [{\"params\": {\"customLabel\": \"Users Unlocks\"}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}]}"
+            },
+            "id": "ab6f8d80-bce8-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "Wzg4LDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"bool\": {\"should\": [{\"match_phrase\": {\"event.code\": \"4738\"}}], \"minimum_should_match\": 1}}, \"meta\": {\"alias\": null, \"value\": \"4738\", \"key\": \"event.code\", \"type\": \"phrases\", \"params\": [\"4738\"], \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Changes - Simple Metric [Winlogbeat Security]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Changes - Simple Metric [Winlogbeat Security]\", \"type\": \"metric\", \"params\": {\"addTooltip\": true, \"metric\": {\"labels\": {\"show\": true}, \"colorsRange\": [{\"from\": 0, \"type\": \"range\", \"to\": 10000}], \"invertColors\": false, \"percentageMode\": false, \"useRanges\": false, \"style\": {\"labelColor\": false, \"bgColor\": false, \"bgFill\": \"#000\", \"fontSize\": 60, \"subText\": \"\"}, \"metricColorMode\": \"None\", \"colorSchema\": \"Green to Red\"}, \"addLegend\": false, \"dimensions\": {\"metrics\": [{\"format\": {\"params\": {}, \"id\": \"number\"}, \"type\": \"vis_dimension\", \"accessor\": 0}]}, \"type\": \"metric\"}, \"aggs\": [{\"params\": {\"customLabel\": \"Changes in Users\"}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}]}"
+            },
+            "id": "5d92b100-bce8-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "Wzg5LDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"match\": {\"event.code\": {\"type\": \"phrase\", \"query\": \"4740\"}}}, \"meta\": {\"alias\": null, \"value\": \"4740\", \"key\": \"event.code\", \"type\": \"phrase\", \"params\": {\"query\": \"4740\"}, \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Locked Out - Table [Winlogbeat Security]",
+                "uiStateJSON": "{\"vis\": {\"params\": {\"sort\": {\"direction\": null, \"columnIndex\": null}}}}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Locked Out - Table [Winlogbeat Security]\", \"type\": \"table\", \"params\": {\"showMetricsAtAllLevels\": false, \"totalFunc\": \"sum\", \"showTotal\": false, \"sort\": {\"direction\": null, \"columnIndex\": null}, \"showPartialRows\": false, \"dimensions\": {\"buckets\": [{\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 0, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 1, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 2, \"params\": {}, \"aggType\": \"terms\"}], \"metrics\": [{\"format\": {\"id\": \"number\"}, \"accessor\": 3, \"params\": {}, \"aggType\": \"count\"}]}, \"perPage\": 10}, \"aggs\": [{\"params\": {}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}, {\"params\": {\"field\": \"winlog.event_data.TargetUserName\", \"customLabel\": \"Locked  User\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 100}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"2\"}, {\"params\": {\"field\": \"winlog.event_data.SubjectUserName\", \"customLabel\": \"Performed by\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": true, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"3\"}, {\"params\": {\"field\": \"winlog.logon.id\", \"customLabel\": \"Performer LogonId\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"4\"}]}"
+            },
+            "id": "4ac8f5f0-bcfe-11e9-b6a2-c9b4015c4baf",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "WzkwLDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"bool\": {\"should\": [{\"match_phrase\": {\"event.code\": \"4720\"}}, {\"match_phrase\": {\"event.code\": \"4722\"}}, {\"match_phrase\": {\"event.code\": \"4723\"}}, {\"match_phrase\": {\"event.code\": \"4724\"}}, {\"match_phrase\": {\"event.code\": \"4725\"}}, {\"match_phrase\": {\"event.code\": \"4726\"}}, {\"match_phrase\": {\"event.code\": \"4738\"}}, {\"match_phrase\": {\"event.code\": \"4740\"}}, {\"match_phrase\": {\"event.code\": \"4767\"}}, {\"match_phrase\": {\"event.code\": \"4781\"}}, {\"match_phrase\": {\"event.code\": \"4798\"}}], \"minimum_should_match\": 1}}, \"meta\": {\"alias\": null, \"value\": \"4720, 4722, 4723, 4724, 4725, 4726, 4738, 4740, 4767, 4781, 4798\", \"key\": \"event.code\", \"type\": \"phrases\", \"params\": [\"4720\", \"4722\", \"4723\", \"4724\", \"4725\", \"4726\", \"4738\", \"4740\", \"4767\", \"4781\", \"4798\"], \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Event Distribution in time [Winlogbeat Security]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"title\": \"Event Distribution in time [Winlogbeat Security]\", \"type\": \"histogram\", \"params\": {\"addTooltip\": true, \"categoryAxes\": [{\"style\": {}, \"position\": \"bottom\", \"labels\": {\"show\": true, \"filter\": true, \"truncate\": 100}, \"show\": true, \"title\": {}, \"type\": \"category\", \"id\": \"CategoryAxis-1\", \"scale\": {\"type\": \"linear\"}}], \"times\": [], \"addTimeMarker\": false, \"addLegend\": true, \"grid\": {\"categoryLines\": false}, \"seriesParams\": [{\"showCircles\": true, \"show\": \"true\", \"drawLinesBetweenPoints\": true, \"data\": {\"label\": \"Count\", \"id\": \"1\"}, \"type\": \"histogram\", \"valueAxis\": \"ValueAxis-1\", \"mode\": \"stacked\"}], \"labels\": {\"show\": true}, \"valueAxes\": [{\"type\": \"value\", \"position\": \"left\", \"labels\": {\"rotate\": 0, \"filter\": false, \"truncate\": 100, \"show\": true}, \"show\": true, \"id\": \"ValueAxis-1\", \"title\": {\"text\": \"Count\"}, \"name\": \"LeftAxis-1\", \"style\": {}, \"scale\": {\"type\": \"linear\", \"mode\": \"normal\"}}], \"type\": \"histogram\", \"legendPosition\": \"bottom\", \"dimensions\": {\"x\": {\"format\": {\"params\": {\"pattern\": \"YYYY-MM-DD HH:mm\"}, \"id\": \"date\"}, \"accessor\": 0, \"params\": {\"format\": \"YYYY-MM-DD HH:mm\", \"interval\": \"PT12H\", \"bounds\": {\"max\": \"2019-11-04T14:10:39.628Z\", \"min\": \"2019-09-20T13:10:39.628Z\"}, \"date\": true}, \"aggType\": \"date_histogram\"}, \"y\": [{\"format\": {\"id\": \"number\"}, \"accessor\": 2, \"params\": {}, \"aggType\": \"count\"}], \"series\": [{\"format\": {}, \"accessor\": 1, \"params\": {}, \"aggType\": \"filters\"}]}}, \"aggs\": [{\"params\": {}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}, {\"params\": {\"extended_bounds\": {}, \"field\": \"@timestamp\", \"drop_partials\": false, \"timeRange\": {\"from\": \"now-45d\", \"to\": \"now\"}, \"min_doc_count\": 1, \"interval\": \"auto\", \"useNormalizedEsInterval\": true}, \"schema\": \"segment\", \"type\": \"date_histogram\", \"enabled\": true, \"id\": \"2\"}, {\"params\": {\"field\": \"event.action\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"group\", \"type\": \"terms\", \"enabled\": true, \"id\": \"3\"}]}"
+            },
+            "id": "8f723a10-bd97-11e9-b9c5-fddc96658612",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "WzkxLDFd"
+        },
+        {
+            "attributes": {
+                "columns": [
+                    "user.name",
+                    "source.domain",
+                    "source.ip",
+                    "winlog.logon.id",
+                    "winlog.logon.type"
+                ],
+                "description": "",
+                "hits": 0,
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"version\": true, \"filter\": [{\"query\": {\"bool\": {\"should\": [{\"match_phrase\": {\"event.code\": \"4624\"}}], \"minimum_should_match\": 1}}, \"meta\": {\"alias\": null, \"value\": \"4624\", \"key\": \"event.code\", \"type\": \"phrases\", \"params\": [\"4624\"], \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\", \"highlightAll\": true}"
+                },
+                "sort": [
+                    [
+                        "@timestamp",
+                        "desc"
+                    ]
+                ],
+                "title": "Logon Details [Winlogbeat Security]",
+                "version": 1
+            },
+            "id": "7e178c80-fee1-11e9-8405-516218e3d268",
+            "migrationVersion": {
+                "search": "7.4.0"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "search",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "WzkyLDFd"
+        },
+        {
+            "attributes": {
+                "columns": [
+                    "event.action",
+                    "winlog.event_data.TargetUserName",
+                    "user.domain",
+                    "winlog.event_data.SubjectUserName",
+                    "winlog.event_data.SubjectDomainName",
+                    "winlog.logon.id",
+                    "related.user"
+                ],
+                "description": "",
+                "hits": 0,
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"version\": true, \"filter\": [{\"query\": {\"bool\": {\"should\": [{\"match_phrase\": {\"event.code\": \"4720\"}}, {\"match_phrase\": {\"event.code\": \"4722\"}}, {\"match_phrase\": {\"event.code\": \"4723\"}}, {\"match_phrase\": {\"event.code\": \"4724\"}}, {\"match_phrase\": {\"event.code\": \"4725\"}}, {\"match_phrase\": {\"event.code\": \"4726\"}}, {\"match_phrase\": {\"event.code\": \"4738\"}}, {\"match_phrase\": {\"event.code\": \"4740\"}}, {\"match_phrase\": {\"event.code\": \"4767\"}}, {\"match_phrase\": {\"event.code\": \"4781\"}}], \"minimum_should_match\": 1}}, \"meta\": {\"alias\": null, \"value\": \"4720, 4722, 4723, 4724, 4725, 4726, 4738, 4740, 4767, 4781\", \"key\": \"event.code\", \"type\": \"phrases\", \"params\": [\"4720\", \"4722\", \"4723\", \"4724\", \"4725\", \"4726\", \"4738\", \"4740\", \"4767\", \"4781\"], \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"lucene\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\", \"highlightAll\": true}"
+                },
+                "sort": [
+                    [
+                        "@timestamp",
+                        "desc"
+                    ]
+                ],
+                "title": "User management Details - Search [Winlogbeat Security]",
+                "version": 1
+            },
+            "id": "324686c0-fefb-11e9-8405-516218e3d268",
+            "migrationVersion": {
+                "search": "7.4.0"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "search",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "WzkzLDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"bool\": {\"should\": [{\"match_phrase\": {\"event.code\": \"4781\"}}], \"minimum_should_match\": 1}}, \"meta\": {\"alias\": null, \"value\": \"4781\", \"key\": \"event.code\", \"type\": \"phrases\", \"params\": [\"4781\"], \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Renamed - Simple Metric [Winlogbeat Security]",
+                "uiStateJSON": "{}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Renamed - Simple Metric [Winlogbeat Security]\", \"type\": \"metric\", \"params\": {\"addTooltip\": true, \"metric\": {\"labels\": {\"show\": true}, \"colorsRange\": [{\"from\": 0, \"type\": \"range\", \"to\": 10000}], \"invertColors\": false, \"percentageMode\": false, \"useRanges\": false, \"style\": {\"labelColor\": false, \"bgColor\": false, \"bgFill\": \"#000\", \"fontSize\": 60, \"subText\": \"\"}, \"metricColorMode\": \"None\", \"colorSchema\": \"Green to Red\"}, \"addLegend\": false, \"dimensions\": {\"metrics\": [{\"format\": {\"params\": {}, \"id\": \"number\"}, \"type\": \"vis_dimension\", \"accessor\": 0}]}, \"type\": \"metric\"}, \"aggs\": [{\"params\": {\"customLabel\": \"Renamed Users\"}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}]}"
+            },
+            "id": "5e19ff80-231c-11ea-8405-516218e3d268",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "Wzk0LDFd"
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "{\"filter\": [{\"query\": {\"match\": {\"event.code\": {\"type\": \"phrase\", \"query\": \"4781\"}}}, \"meta\": {\"alias\": null, \"value\": \"4781\", \"key\": \"event.code\", \"type\": \"phrase\", \"params\": {\"query\": \"4781\"}, \"disabled\": false, \"negate\": false, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"}, \"$state\": {\"store\": \"appState\"}}], \"query\": {\"query\": \"\", \"language\": \"kuery\"}, \"indexRefName\": \"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+                },
+                "title": "Users Renamed - Table [Winlogbeat Security]",
+                "uiStateJSON": "{\"vis\": {\"params\": {\"sort\": {\"direction\": null, \"columnIndex\": null}}}}",
+                "version": 1,
+                "visState": "{\"title\": \"Users Renamed - Table [Winlogbeat Security]\", \"type\": \"table\", \"params\": {\"showMetricsAtAllLevels\": false, \"totalFunc\": \"sum\", \"showTotal\": false, \"sort\": {\"direction\": null, \"columnIndex\": null}, \"showPartialRows\": false, \"dimensions\": {\"buckets\": [{\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 0, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 1, \"params\": {}, \"aggType\": \"terms\"}, {\"format\": {\"params\": {\"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"id\": \"string\"}, \"id\": \"terms\"}, \"accessor\": 2, \"params\": {}, \"aggType\": \"terms\"}], \"metrics\": [{\"format\": {\"id\": \"number\"}, \"accessor\": 3, \"params\": {}, \"aggType\": \"count\"}]}, \"perPage\": 10}, \"aggs\": [{\"params\": {}, \"schema\": \"metric\", \"type\": \"count\", \"enabled\": true, \"id\": \"1\"}, {\"params\": {\"field\": \"winlog.event_data.OldTargetUserName\", \"customLabel\": \"Old User Name\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 100}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"2\"}, {\"params\": {\"field\": \"winlog.event_data.SubjectUserName\", \"customLabel\": \"Performed by\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": true, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"3\"}, {\"params\": {\"field\": \"winlog.logon.id\", \"customLabel\": \"Performer LogonId\", \"otherBucketLabel\": \"Other\", \"missingBucketLabel\": \"Missing\", \"orderBy\": \"1\", \"missingBucket\": false, \"otherBucket\": false, \"order\": \"desc\", \"size\": 5}, \"schema\": \"bucket\", \"type\": \"terms\", \"enabled\": true, \"id\": \"4\"}]}"
+            },
+            "id": "fa876300-231a-11ea-8405-516218e3d268",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                },
+                {
+                    "id": "winlogbeat-*",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-02-04T20:39:02.784Z",
+            "version": "Wzk1LDFd"
+        }
+    ],
+    "version": "7.5.2"
+}

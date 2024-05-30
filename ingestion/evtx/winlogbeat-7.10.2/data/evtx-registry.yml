@@ -1,0 +1,38 @@
+update_time: 2023-01-24T15:41:29.0368662Z
+event_logs:
+- name: C:\certje\evtx-upload\peas-exam-evtx\Application.evtx
+  record_number: 53159
+  timestamp: 2022-12-16T12:44:36.0849552Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Application.evtx' RecordId='53159' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: C:\certje\evtx-upload\peas-exam-evtx\Microsoft-Windows-PowerShell%4Operational.evtx
+  record_number: 2070
+  timestamp: 2022-12-16T12:18:02.0729872Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Microsoft-Windows-PowerShell%4Operational.evtx' RecordId='2070' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: C:\certje\evtx-upload\peas-exam-evtx\Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational.evtx
+  record_number: 3933
+  timestamp: 2022-12-16T12:19:09.4419327Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational.evtx' RecordId='3933' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: C:\certje\evtx-upload\peas-exam-evtx\Microsoft-Windows-TerminalServices-RemoteConnectionManager%4Operational.evtx
+  record_number: 7221766
+  timestamp: 2022-12-16T12:19:31.3412532Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Microsoft-Windows-TerminalServices-RemoteConnectionManager%4Operational.evtx' RecordId='7221766' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: C:\certje\evtx-upload\peas-exam-evtx\Microsoft-Windows-WMI-Activity%4Operational.evtx
+  record_number: 3632219
+  timestamp: 2022-12-16T12:32:18.9489568Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Microsoft-Windows-WMI-Activity%4Operational.evtx' RecordId='3632219' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: C:\certje\evtx-upload\peas-exam-evtx\Microsoft-Windows-WinRM%4Operational.evtx
+  record_number: 93912
+  timestamp: 2022-12-16T12:19:42.2762763Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Microsoft-Windows-WinRM%4Operational.evtx' RecordId='93912' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: C:\certje\evtx-upload\peas-exam-evtx\Microsoft-Windows-Windows Defender%4Operational.evtx
+  record_number: 16943
+  timestamp: 2022-12-16T12:28:02.2348778Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Microsoft-Windows-Windows Defender%4Operational.evtx' RecordId='16943' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: C:\certje\evtx-upload\peas-exam-evtx\Security.evtx
+  record_number: 7227570
+  timestamp: 2022-12-16T12:34:59.4038188Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Security.evtx' RecordId='7227570' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: C:\certje\evtx-upload\peas-exam-evtx\System.evtx
+  record_number: 80650
+  timestamp: 2022-12-16T12:37:46.8444114Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\System.evtx' RecordId='80650' IsCurrent='true'/>\r\n</BookmarkList>"

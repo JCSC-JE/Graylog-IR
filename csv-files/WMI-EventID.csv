@@ -1,0 +1,5 @@
+"EventID","EventName"
+"5857","Provider started"
+"5858","Provider error"
+"5860","Registration of Temporary Event Consumer"
+"5861","Registration of Permanent Event Consumer"
