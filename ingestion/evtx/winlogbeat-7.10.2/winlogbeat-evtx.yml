@@ -3,21 +3,23 @@
 
 # Winlogbeat Shipper Settings
 winlogbeat.event_logs:
- - name: ${EVTX_FILE}
-   no_more_events: stop
+  - name: ${EVTX_FILE}
+    no_more_events: stop
 winlogbeat.shutdown_timeout: 60s
 winlogbeat.registry_file: evtx-registry.yml
 
-# Add/Drop fields for searching within Graylog
+# Add/Drop fields for searching within Kibana
 processors:
   - add_fields:
-        target: ''
-        fields:
-            client: ${CLIENT}
-            case_number: ${CASE}
-            log_type: ${LOGTYPE}
-            location: ${LOCATION}
-        
+      target: ""
+      fields:
+        client: ${CLIENT}
+        case_number: ${CASE}
+        log_type: ${LOGTYPE}
+        location: ${LOCATION}
+
 output.logstash:
   enabled: true
-  hosts: ["192.168.56.103:5044"]
+  hosts: ["192.168.183.138:5044"]
+
+migration.6_to_7.enabled: false

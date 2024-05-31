@@ -15,7 +15,7 @@ $date = Get-Date -UFormat "%m-%d"
 
 # Ask for path containing desired logs
 Do {
-    Write-Host "Enter target directory path containing EVTX logs or folders grouping them by system (i.e. C:\Users\zburnham\EVTX-Logs)."
+    Write-Host "Enter target directory path containing EVTX logs or folders grouping them by system (i.e. C:\Users\cyberkryption\EVTX-Logs)."
     $tempPath = Read-Host "Path"
     # Check to see if input path exists
     $checkPath = Test-Path $tempPath
@@ -65,7 +65,7 @@ if($nested -eq "y"){
 }
 
 # Ask for Client Name
-$tempclient = Read-Host "Enter Client Name (i.e. CERT.JE)"
+$tempclient = Read-Host "Enter Client Name (i.e. JCSC.JE)"
 # Replace Spaces, if any, in name for Graylog Index Name
 $client = $tempClient -replace '\s','_'
 
@@ -73,7 +73,7 @@ $client = $tempClient -replace '\s','_'
 $case = Read-Host "Enter Case # (i.e. 20-0101)"
 
 #Ask for logtype
-$templogtype = Read-Host "Enter log type (i.e. Server2016)"
+$templogtype = Read-Host "Enter log type (i.e. Server or Workstation)"
 # Replace Spaces, if any, in name for logtyper
 $logtype = $templogtype -replace '\s','_'
 
@@ -102,7 +102,7 @@ if($nested -eq "y"){
             Write-Progress -Activity "$i of $dirsCount EVTX files found within $foldersPath sent to Graylog" -Status "Uploading $file..." -PercentComplete $percentComplete
 		    $filePath = $foldersPath + "\" + $file
             # Execute Winlogbeat w/custom vars
-		    .\winlogbeat-7.10.2\winlogbeat.exe -e -c .\winlogbeat-7.10.2\winlogbeat-evtx.yml -E EVTX_FILE="$filePath" -E CLIENT="$client" -E CASE="$case" -E LOCATION="$location" -E LOGTYPE="$logtype" -E FILE="$file" 2>&1 >> $pwd\graylog-logging\winlogbeat_log_${date}.txt
+		    .\winlogbeat-7.10.2\winlogbeat.exe -e -c .\winlogbeat-7.10.2\winlogbeat-evtx.yml -E EVTX_FILE="$filePath" -E CLIENT="$client" -E CASE="$case" -E LOCATION="$location" -E LOGTYPE="$logtype" -E FILE="$file" 2>&1 >> $pwd\winlogbeat_log_${date}.txt
 		    Sleep 3
             $i++
 	    }
@@ -122,7 +122,7 @@ if($nested -eq "n"){
         Write-Progress -Activity "$i of $dirsCount EVTX files found within $userPath sent to Graylog" -Status "Uploading $file..." -PercentComplete $percentComplete
 		$filePath = $userPath + "\" + $file
         # Execute Winlogbeat w/custom vars
-		.\winlogbeat-7.10.2\winlogbeat.exe -e -c .\winlogbeat-7.10.2\winlogbeat-evtx.yml -E EVTX_FILE="$filePath" -E CLIENT="$client" -E CASE="$case" -E LOCATION="$location" -E LOGTYPE="$logtype" -E FILE="$file" 2>&1 >> $pwd\graylog-logging\winlogbeat_log_${date}.txt
+		.\winlogbeat-7.10.2\winlogbeat.exe -e -c .\winlogbeat-7.10.2\winlogbeat-evtx.yml -E EVTX_FILE="$filePath" -E CLIENT="$client" -E CASE="$case" -E LOCATION="$location" -E LOGTYPE="$logtype" -E FILE="$file" 2>&1 >> $pwd\winlogbeat_log_${date}.txt
 		Sleep 3
         $i++
 	}

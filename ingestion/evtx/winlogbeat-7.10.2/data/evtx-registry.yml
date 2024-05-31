@@ -1,38 +1,74 @@
-update_time: 2023-01-24T15:41:29.0368662Z
+update_time: 2024-04-25T14:05:09.8090755Z
 event_logs:
-- name: C:\certje\evtx-upload\peas-exam-evtx\Application.evtx
-  record_number: 53159
-  timestamp: 2022-12-16T12:44:36.0849552Z
-  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Application.evtx' RecordId='53159' IsCurrent='true'/>\r\n</BookmarkList>"
-- name: C:\certje\evtx-upload\peas-exam-evtx\Microsoft-Windows-PowerShell%4Operational.evtx
-  record_number: 2070
-  timestamp: 2022-12-16T12:18:02.0729872Z
-  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Microsoft-Windows-PowerShell%4Operational.evtx' RecordId='2070' IsCurrent='true'/>\r\n</BookmarkList>"
-- name: C:\certje\evtx-upload\peas-exam-evtx\Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational.evtx
-  record_number: 3933
-  timestamp: 2022-12-16T12:19:09.4419327Z
-  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational.evtx' RecordId='3933' IsCurrent='true'/>\r\n</BookmarkList>"
-- name: C:\certje\evtx-upload\peas-exam-evtx\Microsoft-Windows-TerminalServices-RemoteConnectionManager%4Operational.evtx
-  record_number: 7221766
-  timestamp: 2022-12-16T12:19:31.3412532Z
-  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Microsoft-Windows-TerminalServices-RemoteConnectionManager%4Operational.evtx' RecordId='7221766' IsCurrent='true'/>\r\n</BookmarkList>"
-- name: C:\certje\evtx-upload\peas-exam-evtx\Microsoft-Windows-WMI-Activity%4Operational.evtx
-  record_number: 3632219
-  timestamp: 2022-12-16T12:32:18.9489568Z
-  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Microsoft-Windows-WMI-Activity%4Operational.evtx' RecordId='3632219' IsCurrent='true'/>\r\n</BookmarkList>"
-- name: C:\certje\evtx-upload\peas-exam-evtx\Microsoft-Windows-WinRM%4Operational.evtx
-  record_number: 93912
-  timestamp: 2022-12-16T12:19:42.2762763Z
-  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Microsoft-Windows-WinRM%4Operational.evtx' RecordId='93912' IsCurrent='true'/>\r\n</BookmarkList>"
-- name: C:\certje\evtx-upload\peas-exam-evtx\Microsoft-Windows-Windows Defender%4Operational.evtx
-  record_number: 16943
-  timestamp: 2022-12-16T12:28:02.2348778Z
-  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Microsoft-Windows-Windows Defender%4Operational.evtx' RecordId='16943' IsCurrent='true'/>\r\n</BookmarkList>"
-- name: C:\certje\evtx-upload\peas-exam-evtx\Security.evtx
-  record_number: 7227570
-  timestamp: 2022-12-16T12:34:59.4038188Z
-  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\Security.evtx' RecordId='7227570' IsCurrent='true'/>\r\n</BookmarkList>"
-- name: C:\certje\evtx-upload\peas-exam-evtx\System.evtx
-  record_number: 80650
-  timestamp: 2022-12-16T12:37:46.8444114Z
-  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='C:\\certje\\evtx-upload\\peas-exam-evtx\\System.evtx' RecordId='80650' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\Sysmon_13_1_UACBypass_SDCLTBypass.evtx
+  record_number: 11126
+  timestamp: 2019-05-09T02:08:00.4461507Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\Sysmon_13_1_UACBypass_SDCLTBypass.evtx' RecordId='5' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\Sysmon_13_1_UAC_Bypass_EventVwrBypass.evtx
+  record_number: 11117
+  timestamp: 2019-05-09T02:00:01.7940221Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\Sysmon_13_1_UAC_Bypass_EventVwrBypass.evtx' RecordId='6' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\System_7045_namedpipe_privesc.evtx
+  record_number: 10446
+  timestamp: 2019-05-12T12:52:43.702578Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\System_7045_namedpipe_privesc.evtx' RecordId='1' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\privesc_rotten_potato_from_webshell_metasploit_sysmon_1_8_3.evtx
+  record_number: 5420
+  timestamp: 2019-05-26T15:48:01.8645925Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\privesc_rotten_potato_from_webshell_metasploit_sysmon_1_8_3.evtx' RecordId='13' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\security_4624_4673_token_manip.evtx
+  record_number: 18208
+  timestamp: 2019-05-11T17:10:10.9049456Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\security_4624_4673_token_manip.evtx' RecordId='14' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\sysmon_11_1_15_WScriptBypassUAC.evtx
+  record_number: 11242
+  timestamp: 2019-05-09T02:52:23.5315132Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\sysmon_11_1_15_WScriptBypassUAC.evtx' RecordId='15' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\sysmon_11_1_7_uacbypass_cliconfg.evtx
+  record_number: 15712
+  timestamp: 2019-05-10T13:49:45.3875633Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\sysmon_11_1_7_uacbypass_cliconfg.evtx' RecordId='8' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\sysmon_13_1_12_11_perfmonUACBypass.evtx
+  record_number: 15638
+  timestamp: 2019-05-10T12:22:13.8974611Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\sysmon_13_1_12_11_perfmonUACBypass.evtx' RecordId='5' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\sysmon_13_1_compmgmtlauncherUACBypass.evtx
+  record_number: 15678
+  timestamp: 2019-05-10T13:33:29.4248853Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\sysmon_13_1_compmgmtlauncherUACBypass.evtx' RecordId='4' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\sysmon_13_1_meterpreter_getsystem_NamedPipeImpersonation.evtx
+  record_number: 8576
+  timestamp: 2019-04-30T07:46:15.246489Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\sysmon_13_1_meterpreter_getsystem_NamedPipeImpersonation.evtx' RecordId='4' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\sysmon_1_11_exec_as_system_via_schedtask.evtx
+  record_number: 16249
+  timestamp: 2019-05-12T00:32:40.3422467Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\sysmon_1_11_exec_as_system_via_schedtask.evtx' RecordId='6' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\sysmon_1_13_11_cmstp_ini_uacbypass.evtx
+  record_number: 16040
+  timestamp: 2019-05-11T17:28:22.598305Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\sysmon_1_13_11_cmstp_ini_uacbypass.evtx' RecordId='5' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\sysmon_1_13_UACBypass_AppPath_Control.evtx
+  record_number: 11267
+  timestamp: 2019-05-09T03:25:25.0679452Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\sysmon_1_13_UACBypass_AppPath_Control.evtx' RecordId='3' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\sysmon_1_7_11_mcx2prov_uacbypass.evtx
+  record_number: 15882
+  timestamp: 2019-05-11T09:50:27.03088Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\sysmon_1_7_11_mcx2prov_uacbypass.evtx' RecordId='9' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\sysmon_1_7_11_migwiz.evtx
+  record_number: 15975
+  timestamp: 2019-05-11T16:46:26.2036577Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\sysmon_1_7_11_migwiz.evtx' RecordId='7' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\sysmon_1_7_11_sysprep_uacbypass.evtx
+  record_number: 15992
+  timestamp: 2019-05-11T16:54:18.0694384Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\sysmon_1_7_11_sysprep_uacbypass.evtx' RecordId='7' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\sysmon_1_7_elevate_uacbypass_sysprep.evtx
+  record_number: 17729
+  timestamp: 2019-05-14T02:32:51.8313074Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\sysmon_1_7_elevate_uacbypass_sysprep.evtx' RecordId='15' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: E:\evtx-upload\EVTX-ATTACK-SAMPLES\Privilege Escalation\sysmon_privesc_from_admin_to_system_handle_inheritance.evtx
+  record_number: 16150
+  timestamp: 2019-05-11T18:10:42.6687846Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='E:\\evtx-upload\\EVTX-ATTACK-SAMPLES\\Privilege Escalation\\sysmon_privesc_from_admin_to_system_handle_inheritance.evtx' RecordId='3' IsCurrent='true'/>\r\n</BookmarkList>"
