@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T14:30:02.559Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="WSafhCG6ZI8W3lF24k3N" version="24.4.13" type="device">
+<mxfile host="app.diagrams.net" modified="2024-05-31T14:32:50.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="aM4NKMFy8VqRyh8LxxmS" version="24.4.13" type="device">
   <diagram name="Page-1" id="p6KRbC_HjFGBbyENMxyc">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -178,10 +178,10 @@
         <mxCell id="Ccg2hkv3WtTaM1A1_1Fw-49" value="PowerShell Pipeline" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="280" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ccg2hkv3WtTaM1A1_1Fw-50" value="Workstation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Ccg2hkv3WtTaM1A1_1Fw-50" value="Workstation Pipeline" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="222.5" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ccg2hkv3WtTaM1A1_1Fw-51" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Ccg2hkv3WtTaM1A1_1Fw-51" value="Server&lt;div&gt;Pipeline&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="155" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ccg2hkv3WtTaM1A1_1Fw-52" value="Graylog&amp;nbsp;&lt;div&gt;Pipelines&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -310,7 +310,7 @@
         <mxCell id="Ccg2hkv3WtTaM1A1_1Fw-80" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=default;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=none;shape=mxgraph.mscae.enterprise.filter" parent="1" vertex="1">
           <mxGeometry x="470" y="340" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="Ccg2hkv3WtTaM1A1_1Fw-81" value="PowerShell Pipeline" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Ccg2hkv3WtTaM1A1_1Fw-81" value="Sysmon Pipeline" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="340" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ccg2hkv3WtTaM1A1_1Fw-82" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
