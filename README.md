@@ -20,7 +20,7 @@ The techniques and tools made available in this github repository come with inhe
 All contributions are welcome.
 
 ## Licence
-Orifinal software /configurations are licenced under Creative Commons Licence (CC-BY-NC). However, some software notably winlogbeat are licenced under Apache License
+Original software / configurations are licenced under Creative Commons Licence (CC-BY-NC). However, some software notably winlogbeat are licenced under Apache License
 Version 2.0
 
 Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
