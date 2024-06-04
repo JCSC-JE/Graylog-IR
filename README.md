@@ -13,6 +13,12 @@ The aim of this project is to help small national CSIRTS automate incident respo
 ## Getting Started
 Head over to the wiki to find out how to install,configure and use the system.
 
+##Disclaimer
+The techniques and tools made available in this github repository come with inherent risks. To the extent not prohibited by law, JCSC shall not be liable for any loss or damage arising directly or indirectly from your use or inability to use the content, including, without limitation, loss of business, loss of profits, or any other consequential loss.
+
+##Contributing
+All contributions are welcome.
+
 ## Licence
 Orifinal software /configurations are licenced under Creative Commons Licence (CC-BY-NC). However, some software notably winlogbeat are licenced under Apache License
 Version 2.0
