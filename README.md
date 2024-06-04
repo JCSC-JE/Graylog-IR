@@ -2,7 +2,7 @@
 
 ## Welcome to the Graylog-IR Project ##
 
-The aim of this project is to help small national CSIRTS automate incident response triage. The project will show you how to build a Graylog system which can be used to analyse the following types of logs. It is meant to speed up initial triage. The system supports the following logs sources
+The aim of this project is to help small national CSIRTS automate incident response triage. The project will show you how to build a Graylog system which can be used to analyse the following types of logs. It is meant to speed up initial triage. The system supports the following logs sources at present.
 
 * Windows EVTX files
 * CSV files
@@ -20,7 +20,7 @@ The techniques and tools made available in this github repository come with inhe
 All contributions are welcome.
 
 ## Licence
-Original software / configurations are licenced under Creative Commons Licence (CC-BY-NC). However, some software notably winlogbeat are licenced under Apache License
+Original software / configurations produced by the JCSCare licenced under Creative Commons Licence (CC-BY-NC). However, some software within this repository (notably winlogbeat) are licenced under Apache License
 Version 2.0
 
 Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
