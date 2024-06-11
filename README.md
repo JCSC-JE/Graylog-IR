@@ -1,4 +1,6 @@
-![](https://github.com/JCSC-JE/Graylog-IR/blob/main/images/jcsc-logo.png)
+<p align="center">
+  <img src="https://github.com/JCSC-JE/Graylog-IR/blob/main/images/jcsc-logo.png">
+</p>
 
 ## Welcome to the Graylog-IR Project ##
 
